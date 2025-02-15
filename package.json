@@ -3,13 +3,5 @@
     "init": "docker-compose -f docker-compose/yml up -d",
     "start": "bun init && docker-compose -f docker-compose-grafana.yml up -d"
   },
-  "name": "docker-reporter",
-  "module": "index.ts",
-  "type": "module",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+  "name": "docker-reporter"
 }
